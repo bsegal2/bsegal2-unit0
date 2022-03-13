@@ -1,0 +1,112 @@
+0 verbose cli [
+0 verbose cli   '/Users/batiasegal/.nvm/versions/node/v17.5.0/bin/node',
+0 verbose cli   '/Users/batiasegal/.nvm/versions/node/v17.5.0/bin/npm',
+0 verbose cli   'install',
+0 verbose cli   '--ignore-scripts',
+0 verbose cli   '@types/parseurl@ts4.6',
+0 verbose cli   '@types/utils-merge@ts4.6',
+0 verbose cli   '--save-dev',
+0 verbose cli   '--user-agent=typesInstaller/4.6.2'
+0 verbose cli ]
+1 info using npm@8.4.1
+2 info using node@v17.5.0
+3 timing npm:load:whichnode Completed in 0ms
+4 timing config:load:defaults Completed in 1ms
+5 timing config:load:file:/Users/batiasegal/.nvm/versions/node/v17.5.0/lib/node_modules/npm/npmrc Completed in 1ms
+6 timing config:load:builtin Completed in 1ms
+7 timing config:load:cli Completed in 2ms
+8 timing config:load:env Completed in 0ms
+9 timing config:load:file:/Users/batiasegal/Library/Caches/typescript/4.6/.npmrc Completed in 0ms
+10 timing config:load:project Completed in 3ms
+11 timing config:load:file:/Users/batiasegal/.npmrc Completed in 0ms
+12 timing config:load:user Completed in 0ms
+13 timing config:load:file:/Users/batiasegal/.nvm/versions/node/v17.5.0/etc/npmrc Completed in 1ms
+14 timing config:load:global Completed in 1ms
+15 timing config:load:validate Completed in 0ms
+16 timing config:load:credentials Completed in 1ms
+17 timing config:load:setEnvs Completed in 1ms
+18 timing config:load Completed in 10ms
+19 timing npm:load:configload Completed in 10ms
+20 timing npm:load:setTitle Completed in 16ms
+21 timing config:load:flatten Completed in 2ms
+22 timing npm:load:display Completed in 3ms
+23 verbose logfile /Users/batiasegal/.npm/_logs/2022-03-10T16_12_17_177Z-debug-0.log
+24 timing npm:load:logFile Completed in 4ms
+25 timing npm:load:timers Completed in 0ms
+26 timing npm:load:configScope Completed in 0ms
+27 timing npm:load Completed in 35ms
+28 timing arborist:ctor Completed in 1ms
+29 silly logfile start cleaning logs, removing 1 files
+30 timing idealTree:init Completed in 29ms
+31 timing arborist:ctor Completed in 0ms
+32 http fetch GET 200 https://registry.npmjs.org/@types%2futils-merge 224ms (cache revalidated)
+33 http fetch GET 200 https://registry.npmjs.org/@types%2fparseurl 929ms (cache revalidated)
+34 timing idealTree:userRequests Completed in 937ms
+35 silly idealTree buildDeps
+36 silly fetch manifest @types/parseurl@1.3.1
+37 silly fetch manifest @types/utils-merge@0.0.28
+38 silly placeDep ROOT @types/parseurl@1.3.1 OK for:  want: 1.3.1
+39 silly placeDep ROOT @types/utils-merge@0.0.28 OK for:  want: 0.0.28
+40 timing idealTree:#root Completed in 11ms
+41 timing idealTree:node_modules/@types/parseurl Completed in 0ms
+42 timing idealTree:node_modules/@types/utils-merge Completed in 0ms
+43 timing idealTree:buildDeps Completed in 12ms
+44 timing idealTree:fixDepFlags Completed in 0ms
+45 timing idealTree Completed in 981ms
+46 timing reify:loadTrees Completed in 981ms
+47 timing reify:diffTrees Completed in 3ms
+48 silly reify moves {}
+49 timing reify:retireShallow Completed in 0ms
+50 timing reify:createSparse Completed in 1ms
+51 timing reify:loadBundles Completed in 0ms
+52 silly audit bulk request {
+52 silly audit   '@types/body-parser': [ '1.19.2' ],
+52 silly audit   '@types/brace-expansion': [ '1.1.0' ],
+52 silly audit   '@types/bytes': [ '3.1.1' ],
+52 silly audit   '@types/connect': [ '3.4.35' ],
+52 silly audit   '@types/content-type': [ '1.1.5' ],
+52 silly audit   '@types/debug': [ '4.1.7' ],
+52 silly audit   '@types/depd': [ '1.1.32' ],
+52 silly audit   '@types/express': [ '4.17.13' ],
+52 silly audit   '@types/express-serve-static-core': [ '4.17.28' ],
+52 silly audit   '@types/glob': [ '7.2.0' ],
+52 silly audit   '@types/http-errors': [ '1.8.2' ],
+52 silly audit   '@types/inherits': [ '0.0.30' ],
+52 silly audit   '@types/merge-descriptors': [ '1.0.1' ],
+52 silly audit   '@types/methods': [ '1.1.1' ],
+52 silly audit   '@types/mime': [ '1.3.2' ],
+52 silly audit   '@types/minimatch': [ '3.0.5' ],
+52 silly audit   '@types/ms': [ '0.7.31' ],
+52 silly audit   '@types/node': [ '17.0.21' ],
+52 silly audit   '@types/once': [ '1.4.0' ],
+52 silly audit   '@types/path-is-absolute': [ '1.0.0' ],
+52 silly audit   '@types/qs': [ '6.9.7' ],
+52 silly audit   '@types/range-parser': [ '1.2.4' ],
+52 silly audit   '@types/serve-static': [ '1.13.10' ],
+52 silly audit   '@types/type-is': [ '1.6.3' ],
+52 silly audit   'types-registry': [ '0.1.583' ],
+52 silly audit   '@types/parseurl': [ '1.3.1' ],
+52 silly audit   '@types/utils-merge': [ '0.0.28' ]
+52 silly audit }
+53 timing reifyNode:node_modules/@types/parseurl Completed in 15ms
+54 timing reifyNode:node_modules/@types/utils-merge Completed in 15ms
+55 timing reify:unpack Completed in 15ms
+56 timing reify:unretire Completed in 0ms
+57 timing build:queue Completed in 0ms
+58 timing build:deps Completed in 0ms
+59 timing build Completed in 0ms
+60 timing reify:build Completed in 1ms
+61 timing reify:trash Completed in 0ms
+62 timing reify:save Completed in 10ms
+63 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 128ms
+64 timing auditReport:getReport Completed in 131ms
+65 silly audit report {}
+66 timing auditReport:init Completed in 0ms
+67 timing reify:audit Completed in 131ms
+68 timing reify Completed in 1122ms
+69 silly ADD node_modules/@types/utils-merge
+70 silly ADD node_modules/@types/parseurl
+71 timing command:install Completed in 1127ms
+72 verbose exit 0
+73 timing npm Completed in 1430ms
+74 info ok

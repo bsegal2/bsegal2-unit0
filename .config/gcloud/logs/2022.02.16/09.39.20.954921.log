@@ -1,0 +1,11 @@
+2022-02-16 09:39:20,956 DEBUG    root            Loaded Command Group: ['gcloud', 'components']
+2022-02-16 09:39:20,959 DEBUG    root            Loaded Command Group: ['gcloud', 'components', 'install']
+2022-02-16 09:39:20,962 DEBUG    root            Running [gcloud.components.install] with arguments: [--quiet: "True", COMPONENT-IDS:5: "['beta', 'kubectl', 'skaffold', 'minikube', 'gsutil']"]
+2022-02-16 09:39:20,978 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): dl.google.com:443
+2022-02-16 09:39:21,081 DEBUG    urllib3.connectionpool https://dl.google.com:443 "GET /dl/cloudsdk/channels/rapid/components-v373.0.0.json HTTP/1.1" 200 180433
+2022-02-16 09:39:21,196 INFO     ___FILE_ONLY___ 
+
+2022-02-16 09:39:21,196 INFO     ___FILE_ONLY___ All components are up to date.
+
+2022-02-16 09:39:21,197 DEBUG    root            Updating notification cache...
+2022-02-16 09:39:21,198 INFO     root            Display format: "none"

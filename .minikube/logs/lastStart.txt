@@ -1,0 +1,4 @@
+Log file created at: 2022/02/16 09:40:49
+Running on machine: Batias-MBP
+Binary: Built with gc go1.17.2 for darwin/amd64
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
